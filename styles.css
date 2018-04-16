@@ -145,6 +145,7 @@ a.nostyle:visited {
 @media screen and (max-width: 675px) {
   secondBody .headerOne {font-size: 46px;}
   secondBody .headerTwo {font-size: 20px;}
+  body .headerThree {font-size: 13px;}
 }
 
 .headerOne {
@@ -155,13 +156,23 @@ a.nostyle:visited {
 
 .headerTwo {
   font-size: 35px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+}
+
+.headerThree {
+  font-size: 20px;
+  margin-top: -10vh;
+  text-align: center;
+}
+
+.headerThree a:hover {
+  color: white;
 }
 
 .btn {
   border: 1px solid;
   border-radius: 500px;
-  padding: 20px 25px;
+  padding: 15px 25px;
   font-size: 14px;
   font-weight: bold;
 }
