@@ -27,6 +27,7 @@ secondBody {
   margin-right: auto;
   max-width: 800px;
   text-align: center;
+  padding: 0px 20px;
 }
 
 .background {
@@ -118,7 +119,6 @@ a.nostyle:visited {
     float: right;
     display: block;
   }
-  secondBody .headerOne {font-size: 50px;}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -141,10 +141,10 @@ a.nostyle:visited {
   }
 }
 
-/* When the screen is less than 675 pixels wide, decrease font-size */
-@media screen and (max-width: 675px) {
+/* When the screen is less than 710 pixels wide, decrease font-size */
+@media screen and (max-width: 710px) {
   secondBody .headerOne {font-size: 46px;}
-  secondBody .headerTwo {font-size: 20px;}
+  #top2Body .headerTwo {font-size: 20px;}
   body .headerThree {font-size: 13px;}
 }
 
@@ -156,7 +156,6 @@ a.nostyle:visited {
 
 .headerTwo {
   font-size: 35px;
-  margin-bottom: 80px;
 }
 
 .headerThree {
@@ -169,6 +168,10 @@ a.nostyle:visited {
   color: white;
 }
 
+.contactMe {
+  margin-top: 80px;
+}
+
 .btn {
   border: 1px solid;
   border-radius: 500px;
@@ -179,4 +182,17 @@ a.nostyle:visited {
 
 .btn:hover {
   background-color: white;
+}
+
+.idPhoto img {
+  margin-top: 30px;
+  border: 5px solid;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.aboutContent {
+  margin-top: 50px;
+  font-size: 20px;
 }
