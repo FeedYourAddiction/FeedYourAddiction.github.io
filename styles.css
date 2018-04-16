@@ -9,6 +9,26 @@ html, body {
   width: auto;
 }
 
+secondBody {
+  display: table;
+  position: abosolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.midBox {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  text-align: center;
+}
+
 .background {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17,11 +37,13 @@ html, body {
 }
 
 .b1 {
-  background: url("background1.jpg") no-repeat center center fixed;
+  //background: url("background1.jpg") no-repeat center center fixed;
+  background-color: #6666ff;
 }
 
 .b2 {
-  background: url("background2.jpg") no-repeat center center;
+  //background: url("background2.jpg") no-repeat center center;
+  background-color: #7f7fff;
 }
 
 /* Add a black background color to the top navigation */
@@ -76,6 +98,7 @@ html, body {
     float: right;
     display: block;
   }
+  secondBody .headerOne {font-size: 50px;}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -96,4 +119,20 @@ html, body {
     display: block;
     width: 100%;
   }
+}
+
+/* When the screen is less than 675 pixels wide, decrease font-size */
+@media screen and (max-width: 675px) {
+  secondBody .headerOne {font-size: 50px;}
+  secondBody .headerTwo {font-size: 22px;}
+}
+
+.headerOne {
+  font-size: 80px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.headerTwo {
+  font-size: 35px;
 }
