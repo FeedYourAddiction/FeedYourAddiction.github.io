@@ -22,7 +22,7 @@ secondBody {
 }
 
 .midBox {
-  border: 1px solid black;
+  border: 0px solid black;
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
@@ -46,6 +46,26 @@ secondBody {
   background-color: #7f7fff;
 }
 
+.b3 {
+  //background: url("background1.jpg") no-repeat center center fixed;
+  background-color: #9999ff;
+}
+
+.b4 {
+  //background: url("background2.jpg") no-repeat center center;
+  background-color: #b2b2ff;
+}
+
+/*Remove all styles from a link */
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -123,8 +143,8 @@ secondBody {
 
 /* When the screen is less than 675 pixels wide, decrease font-size */
 @media screen and (max-width: 675px) {
-  secondBody .headerOne {font-size: 50px;}
-  secondBody .headerTwo {font-size: 22px;}
+  secondBody .headerOne {font-size: 46px;}
+  secondBody .headerTwo {font-size: 20px;}
 }
 
 .headerOne {
@@ -135,4 +155,17 @@ secondBody {
 
 .headerTwo {
   font-size: 35px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  border: 1px solid;
+  border-radius: 500px;
+  padding: 20px 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: white;
 }
