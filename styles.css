@@ -3,10 +3,14 @@ html, body {
   padding: 0;
   height 100%;
 }
-.container {
+.containerTwo {
   border: 0px solid;
   height: 100vh;
   width: auto;
+}
+
+.containerThree {
+  height: auto;
 }
 
 secondBody {
@@ -27,7 +31,7 @@ secondBody {
   margin-right: auto;
   max-width: 800px;
   text-align: center;
-  padding: 0px 20px;
+  padding: 80px 20px;
 }
 
 .background {
@@ -146,6 +150,7 @@ a.nostyle:visited {
   secondBody .headerOne {font-size: 46px;}
   #top2Body .headerTwo {font-size: 20px;}
   body .headerThree {font-size: 13px;}
+  secondBody .aboutContent {font-size: 17px;}
 }
 
 .headerOne {
@@ -172,7 +177,7 @@ a.nostyle:visited {
   margin-top: 80px;
 }
 
-.btn {
+.btnMod {
   border: 1px solid;
   border-radius: 500px;
   padding: 15px 25px;
@@ -180,7 +185,7 @@ a.nostyle:visited {
   font-weight: bold;
 }
 
-.btn:hover {
+.btnMod:hover {
   background-color: white;
 }
 
@@ -195,4 +200,9 @@ a.nostyle:visited {
 .aboutContent {
   margin-top: 50px;
   font-size: 20px;
+}
+
+.block {
+  display: block;
+  height: 90px;
 }
