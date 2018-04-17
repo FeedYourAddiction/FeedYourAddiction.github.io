@@ -206,3 +206,41 @@ a.nostyle:visited {
   display: block;
   height: 90px;
 }
+
+.smBlock {
+  display: block;
+  height: 45px;
+}
+
+.template {
+  border: 1px solid;
+}
+
+.workHeader {
+  font-size: 30px;
+}
+
+.workHeader2 {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.hLine {
+  border-bottom: 1px solid;
+}
+
+.workBtn {
+  border: 1px solid;
+  border-radius: 500px;
+  padding: 5px 25px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 140px;;
+  margin-top: 15px;
+  text-align: center;
+  float: left;
+}
+
+.workBtn:hover {
+  background-color: white;
+}
