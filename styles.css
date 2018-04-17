@@ -267,3 +267,8 @@ a.nostyle:visited {
   border: 0px solid;
   text-align: center;
 }
+
+.box {
+  border: 1px solid;
+  height: 50px;
+}
