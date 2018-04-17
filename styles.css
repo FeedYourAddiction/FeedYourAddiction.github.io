@@ -153,6 +153,8 @@ a.nostyle:visited {
   body .headerThree {font-size: 13px;}
   secondBody .aboutContent {font-size: 15px;}
   .row .workHeader2 {margin-right: 0;}
+  .row .leftMarginWork {margin: 0;}
+
 }
 
 /* When the screen is less than 710 pixels wide, decrease font-size */
@@ -223,7 +225,7 @@ a.nostyle:visited {
 }
 
 .templateImg img {
-  border: 1px solid;
+  border: 0px solid;
   border-radius: 20px;
   max-width: 100%;
 }
@@ -234,7 +236,11 @@ a.nostyle:visited {
 
 .workHeader2 {
   font-size: 15px;
-  margin-right: 20%;
+  margin: 0 20% 0 0;
+}
+
+.leftMarginWork {
+  margin: 0 0 0 15%;
 }
 
 .hLine {
