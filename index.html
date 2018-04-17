@@ -15,7 +15,7 @@
       <!--Responsive topnav-->
       <div class="topnav" id="myTopnav">
         <a class="left" href="#top">Hieu Lai</a>
-        <div class="header-right" id="rTopnav">
+        <div class="navRight" id="rTopnav">
           <a href="#about" onclick="myFunction()">About</a>
           <a href="#projects" onclick="myFunction()">My Work</a>
           <a href="#contact" onclick="myFunction()">Contact</a>
@@ -58,18 +58,20 @@
       <div class="block"></div>
       <div class="headerTwo text-center block">My Work</div>
 
-      <div class="container">
+      <div class="container" id="workContainer">
         <div class="row">
-          <div class="col-sm-6 order-sm-12">
-            <div class="template">
-              <h1> image here</h1>
-              <p>testy</p>
+          <div class="col-sm-6 order-sm-12 text-center">
+            <div class="templateImg">
+              <img src="myPortfolio_screenshot.png" alt="myPortfolio_screenshot">
             </div>
           </div>
           <div class="col-sm-6 order-sm-1">
             <div class="workHeader">My Portfolio</div><br>
             <div class="workHeader2">My portfolio is a quick snippet of who I am. It illustrates past front end web developments I have completed and ways in which you can contact me.</div>
-            <div class="workBtn">Visit Website</div>
+            <div class="workBtnContainer">
+              <a href="#projects" class="workBtn nostyle">Visit Website</a>
+              <a href="#projects" class="workBtn nostyle">See Code</a>
+            </div>
           </div>
         </div>
         <div class="smBlock hLine"></div>
@@ -84,6 +86,8 @@
           <div class="col-sm-6">
             <div class="workHeader">My Portfolio</div><br>
             <div class="workHeader2">My portfolio is a quick snippet of who I am. It illustrates past front end web developments I have completed and ways in which you can contact me.</div>
+            <a href="#projects" class="workBtn nostyle">Visit Website</a>
+            <a href="#projects" class="workBtn nostyle">See Code</a>
           </div>
         </div>
       </div>

@@ -8,6 +8,6 @@ function myFunction() {
         y.className += " responsive";
     } else {
         x.className = "topnav";
-        y.className = "header-right"
+        y.className = "navRight"
     }
 }
