@@ -18,7 +18,7 @@ function checkTop() {
   var x = document.getElementById("myTopnav");
 
   if(document.body.scrollTop !== 0) {
-    x.style.backgroundColor =  "#333";
+    x.style.backgroundColor =  "#3b5998";
   }
   else {
     x.style.backgroundColor = "transparent";
