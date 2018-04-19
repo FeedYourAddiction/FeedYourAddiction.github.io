@@ -3,29 +3,28 @@ html, body {
   padding: 0;
   height 100%;
 }
-
+/* Container for cover page */
 .containerTwo {
-  border: 0px solid;
   height: 100vh;
   width: auto;
 }
-
+/* Subsequence container for each section */
 .containerThree {
   height: auto;
 }
-
+/* Body to create container to remain in center */
 secondBody {
   display: table;
   position: abosolute;
   height: 100%;
   width: 100%;
 }
-
+/* Vertical center div */
 .middle {
   display: table-cell;
   vertical-align: middle;
 }
-
+/* Div remains center of page no matter height */
 .midBox {
   border: 0px solid black;
   margin-left: auto;
@@ -104,12 +103,6 @@ a.nostyle:visited {
   color: #f2f2f2;
 }
 
-/* Add an active class to highlight the current page */
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
@@ -162,7 +155,7 @@ a.nostyle:visited {
   #workContainer .workBtn {float: none;}
   #workContainer .workBtnContainer {margin-top: 20px;}
 }
-
+/* Font of cover page */
 .headerOne {
   font-size: 80px;
   color: #e5e5e5;
@@ -171,8 +164,8 @@ a.nostyle:visited {
 }
 
 .headerTwo {
-  font-size: 35px;
-  font-family: 'Roboto';
+  font-size: 30px;
+  font-family: 'Montserrat';
   color: #e5e5e5;
 }
 
@@ -181,10 +174,10 @@ a.nostyle:visited {
 }
 
 .headerThree {
-  font-size: 20px;
+  font-size: 15px;
   margin-top: -10vh;
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'Montserrat';
   color: #e5e5e5;
 }
 
@@ -195,7 +188,7 @@ a.nostyle:visited {
 .contactMe {
   margin-top: 80px;
 }
-
+/* Create 'Contact-Me' button on cover page */
 .btnMod {
   border: 3px solid #3b5998;
   border-radius: 500px;
@@ -209,7 +202,7 @@ a.nostyle:visited {
   background-color: #3b5998;
   color: black !important;
 }
-
+/* Settings of id photo in 'About-Me' */
 .idPhoto img {
   margin-top: 30px;
   border: 5px solid #3b5998;
@@ -221,10 +214,10 @@ a.nostyle:visited {
 .aboutContent {
   margin-top: 50px;
   font-size: 20px;
-  font-family: 'Roboto';
+  font-family: 'Montserrat';
   color: #b2b2b2;
 }
-
+/* Different size spacing */
 .block {
   display: block;
   height: 90px;
@@ -234,7 +227,7 @@ a.nostyle:visited {
   display: block;
   height: 45px;
 }
-
+/* Style for the 'My-Work' screenshots */
 .templateImg img {
   border: 0px solid;
   border-radius: 20px;
@@ -243,12 +236,12 @@ a.nostyle:visited {
 
 .workHeader {
   font-size: 23px;
-  font-family: 'Roboto';
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 
 .workHeader2 {
-  font-family: 'Roboto';
+  font-family: 'Montserrat';
   color: #b2b2b2;
   font-size: 15px;
   margin: 0 20% 0 0;
@@ -261,7 +254,7 @@ a.nostyle:visited {
 .hLine {
   border-bottom: 1px solid #cccccc;
 }
-
+/* Style for 'Visit Website' and 'See Code' buttons */
 .workBtn {
   border: 2px solid #3b5998;
   border-radius: 500px;
@@ -288,7 +281,7 @@ a.nostyle:visited {
 
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
+  padding: 15px;
   font-size: 30px;
   width: auto;
   text-align: center;
@@ -298,7 +291,7 @@ a.nostyle:visited {
   opacity: 0.7;
 }
 
-/* Add a hover effect if you want */
+/* Hover effect on icon */
 .fa:hover {
   opacity: 1;
 }
@@ -313,6 +306,7 @@ a.nostyle:visited {
   background: #007bb5;
   color: white !important;
   opacity: 0.7;
+  border-radius: 6px;
 }
 
 .fa-envelope {
@@ -326,6 +320,6 @@ footer {
 }
 
 .footer {
-  font-family: 'Roboto';
+  font-family: 'Montserrat';
   color: #999999;
 }
