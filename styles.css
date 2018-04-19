@@ -137,7 +137,7 @@ a.nostyle:visited {
   }
 }
 
-/* When the screen is less than 710 pixels wide, decrease font-size */
+/* When the screen is less than 768 pixels wide, decrease font-size */
 @media screen and (max-width: 768px) {
   secondBody .headerOne {font-size: 46px;}
   #top2Body .headerTwo {font-size: 20px;}
@@ -145,15 +145,23 @@ a.nostyle:visited {
   secondBody .aboutContent {font-size: 15px;}
   .row .workHeader2 {margin-right: 0;}
   .row .leftMarginWork {margin: 0;}
-
+  #about img {
+    height: 240px;
+    width: 240px;
+  }
 }
 
-/* When the screen is less than 710 pixels wide, decrease font-size */
+/* When the screen is less than 710 pixels wide, change margin and alignment in 'My Work' section */
 @media screen and (max-width: 575px) {
   #workContainer .workHeader {text-align: center;}
   #workContainer .workHeader2 {text-align: center;}
-  #workContainer .workBtn {float: none;}
   #workContainer .workBtnContainer {margin-top: 20px;}
+  #workContainer .workBtn {
+                   float: none;
+                   padding: 5px 15px;
+                   font-size: 12px;
+                   margin: 20px 5px 0 0;
+                 }
 }
 /* Font of cover page */
 .headerOne {
@@ -258,14 +266,13 @@ a.nostyle:visited {
 .workBtn {
   border: 2px solid #3b5998;
   border-radius: 500px;
-  padding: 5px 25px;
-  font-size: 14px;
+  padding: 5px 25px; /* was 25px */
+  font-size: 14px; /* was 14px */
   font-weight: bold;
   width: auto;
   text-align: center;
   float: left;
   margin: 20px 10px 0 0;
-  color: green;
 }
 
 .workBtn:hover {
@@ -283,11 +290,10 @@ a.nostyle:visited {
 .fa {
   padding: 15px;
   font-size: 30px;
-  width: auto;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   opacity: 0.7;
 }
 
