@@ -13,7 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto|Montserrat' rel='stylesheet'>
     <script type="text/javascript" src="script.js"></script>
   </head>
-  <body>
+  <body id="#body" onscroll="checkTop()">
     <div class="containerTwo background b1">
       <!-- Responsive topnav -->
       <div class="topnav" id="myTopnav">
@@ -26,7 +26,7 @@
         </div>
       </div>
 
-      <!-- Create a container that will remain center of page -->
+      <!-- Create a container that will remain center of cover page -->
       <secondBody id="top2Body">
         <div class="middle">
           <div class="midBox">
@@ -69,13 +69,13 @@
       <!-- Add Bootstrp grid system -->
       <div class="container" id="workContainer">
         <div class="row">
-          <!-- Create two columns, when screen shrinks this column is orded last -->
+          <!-- Create two columns, when screen shrinks this column is ordered last -->
           <div class="col-sm-6 order-sm-12 text-center">
             <div class="templateImg">
               <img src="myPortfolio_screenshot.png" alt="myPortfolio_screenshot">
             </div>
           </div>
-          <!-- When screen shirks, this column is orded first -->
+          <!-- When screen shirks, this column is ordered first -->
           <div class="col-sm-6 order-sm-1">
             <div class="workHeader">My Portfolio</div><br>
             <div class="workHeader2">My portfolio is a quick snippet of who I am. It illustrates past front end web developments I have completed and ways in which you can contact me. This site is designed to be responsive, utilising Bootstrap 4.</div>
