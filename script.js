@@ -24,3 +24,39 @@ function checkTop() {
     x.style.backgroundColor = "transparent";
   }
 }
+
+/* My typewriter animation */
+var i = 0;
+var j = 0;
+var txt = ['Lorem ipsum dummy text blabla.', 'just testing if this works', 'might apply this to my page', 'hope this is easy to implement', 'otherwise im fooked'];
+var speed = 50;
+test();
+
+function test() {
+  document.getElementById("subHeading").innerHTML = "terst";
+}
+function typeWriter() {
+  if (i < txt[j].length) {
+    document.getElementById("subHeading").innerHTML += txt[j].charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+  else if (i === txt[j].length) {
+    setTimeout(deleteTxt, 1000);
+  }
+}
+
+function deleteTxt() {
+  if(i > 0) {
+    document.getElementById("subHeading").innerHTML = txt[j].substring(0, i - 1);
+    i--;
+    setTimeout(deleteTxt, speed);
+  }
+  else if(i === 0) {
+    setTimeout(typeWriter, 500);
+    j++;
+    if(j === txt.length) {
+      j = 0;
+    }
+  }
+}
