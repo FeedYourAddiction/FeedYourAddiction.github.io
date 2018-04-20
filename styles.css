@@ -178,7 +178,7 @@ a.nostyle:visited {
 /* Font of cover page */
 .headerOne {
   font-size: 80px;
-  color: #e5e5e5;
+  color: white;
   padding-bottom: 20px;
   font-family: 'Montserrat', serif;
   font-weight: bold;
@@ -335,7 +335,7 @@ a.nostyle:visited {
 }
 
 footer {
-  background: #333333;
+  background: #23282d;
 }
 
 .footer {

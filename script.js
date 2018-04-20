@@ -28,13 +28,14 @@ function checkTop() {
 /* My typewriter animation */
 var i = 0;
 var j = 0;
-var txt = ['Lorem ipsum dummy text blabla.', 'just testing if this works', 'might apply this to my page', 'hope this is easy to implement', 'otherwise im fooked'];
+var txt = ['enjoys long walks on the beach.',
+           'likes this animation.',
+           'hopes this is easy to implement.',
+           "talks to himself.",
+           'enjoys learning code.'];
 var speed = 50;
-test();
 
-function test() {
-  document.getElementById("subHeading").innerHTML = "terst";
-}
+/* Prints out each character for each line in array */
 function typeWriter() {
   if (i < txt[j].length) {
     document.getElementById("subHeading").innerHTML += txt[j].charAt(i);
@@ -42,21 +43,20 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
   else if (i === txt[j].length) {
-    setTimeout(deleteTxt, 1000);
+    /* Stops typeWriter once reach end of text array */
+    if(j === txt.length-1) {return;}
+    setTimeout(deleteTxt, 2500);
   }
 }
-
+/* Removes the last character for the sentence until there's none */
 function deleteTxt() {
   if(i > 0) {
     document.getElementById("subHeading").innerHTML = txt[j].substring(0, i - 1);
     i--;
-    setTimeout(deleteTxt, speed);
+    setTimeout(deleteTxt, 25);
   }
   else if(i === 0) {
     setTimeout(typeWriter, 500);
     j++;
-    if(j === txt.length) {
-      j = 0;
-    }
   }
 }
