@@ -330,6 +330,10 @@ a.nostyle:visited {
   opacity: 0.7;
 }
 
+.fa-send {
+  padding-left : 0px;
+}
+
 footer {
   background: #333333;
 }
