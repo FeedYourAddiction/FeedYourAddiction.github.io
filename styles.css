@@ -42,6 +42,7 @@ secondBody {
   background-size: cover;
 }
 
+/* Background of the four different sections */
 .b1 {
   background: url("office-wallpaper2.png") no-repeat center center fixed;
 }
