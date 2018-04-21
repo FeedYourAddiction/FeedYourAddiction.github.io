@@ -1,3 +1,8 @@
+/* Functions that are initilised when page loads */
+document.addEventListener('DOMContentLoaded', function() {
+   typeWriter();
+}, false);
+
 /* Toggle between adding and removing the "responsive" class to topnav when the
    user clicks on the icon */
 function myFunction() {
@@ -34,6 +39,7 @@ var txt = ['enjoys long walks on the beach.',
            "talks to himself.",
            'enjoys learning code.'];
 var speed = 50;
+var timer;
 
 /* Prints out each character for each line in array */
 function typeWriter() {
@@ -43,6 +49,7 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
   else if (i === txt[j].length) {
+    cursor();
     /* Stops typeWriter once reach end of text array */
     if(j === txt.length-1) {return;}
     setTimeout(deleteTxt, 2500);
@@ -50,13 +57,30 @@ function typeWriter() {
 }
 /* Removes the last character for the sentence until there's none */
 function deleteTxt() {
+  /* Keeps the cursor solid color */
+  var x = document.getElementById("cursor");
+  clearInterval(timer);
+  x.style.color = "black";
   if(i > 0) {
     document.getElementById("subHeading").innerHTML = txt[j].substring(0, i - 1);
     i--;
-    setTimeout(deleteTxt, 25);
+    setTimeout(deleteTxt, speed/2);
   }
   else if(i === 0) {
     setTimeout(typeWriter, 500);
     j++;
   }
+}
+
+function cursor() {
+  var x = document.getElementById("cursor");
+  x.style.color =  "transparent";
+  timer = setInterval(function() {
+    if(x.style.color == "black") {
+      x.style.color =  "transparent";
+    }
+    else {
+      x.style.color = "black";
+    }
+  }, 530);
 }

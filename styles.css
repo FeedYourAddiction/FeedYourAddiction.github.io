@@ -185,9 +185,13 @@ a.nostyle:visited {
 }
 
 .headerTwo {
-  font-size: 30px;
+  font-size: 29px;
   font-family: 'Montserrat';
   color: black;
+}
+
+.cursor {
+  border-left: 2px solid;
 }
 
 .headerThree {
