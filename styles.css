@@ -44,7 +44,8 @@ secondBody {
 
 /* Background of the four different sections */
 .b1 {
-  background: url("office-wallpaper2.png") no-repeat center center fixed;
+  background: url("office-wallpaper2.png") no-repeat center center;
+  background-attachment: fixed;
 }
 
 .b2 {
@@ -122,6 +123,9 @@ a.nostyle:visited {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  body div.b1 {
+    background-attachment: scroll;
   }
 }
 
