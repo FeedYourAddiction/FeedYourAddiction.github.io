@@ -6,7 +6,7 @@ html, body {
 }
 /* Container for cover page */
 .containerTwo {
-  height: 100vh;
+  height: 100%;
   width: auto;
 }
 /* Subsequence container for each section */
@@ -44,7 +44,7 @@ secondBody {
 
 /* Background of the four different sections */
 .b1 {
-  background: url("office-wallpaper2.png") no-repeat center center;
+  background: url("office-wallpaper2.png") no-repeat center center fixed;
 }
 
 .b2 {
