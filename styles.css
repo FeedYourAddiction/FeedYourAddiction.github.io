@@ -91,6 +91,7 @@ a.nostyle:visited {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Montserrat';
 }
 
 .navRight {
@@ -151,7 +152,7 @@ a.nostyle:visited {
   secondBody .headerOne {font-size: 46px;}
   #top2Body .headerTwo {font-size: 20px;}
   body .headerThree {font-size: 13px;}
-  secondBody .aboutContent {font-size: 15px;}
+  secondBody .aboutContent {font-size: 13px;}
   .row .workHeader2 {margin-right: 0;}
   .row .leftMarginWork {margin: 0;}
   #about img {
@@ -180,7 +181,7 @@ a.nostyle:visited {
   font-size: 80px;
   color: white;
   padding-bottom: 20px;
-  font-family: 'Montserrat', serif;
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 
@@ -234,7 +235,7 @@ a.nostyle:visited {
 
 .aboutContent {
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Montserrat';
   color: #b2b2b2;
 }

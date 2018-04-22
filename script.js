@@ -34,10 +34,9 @@ function checkTop() {
 var i = 0;
 var j = 0;
 var txt = ['enjoys long walks on the beach.',
-           'likes this animation.',
-           'hopes this is easy to implement.',
-           "talks to himself.",
-           'enjoys learning code.'];
+           'appreciates the occassional meme.',
+           'dislikes listing things.',
+           'enjoys learning code!'];
 var speed = 50;
 var timer;
 
