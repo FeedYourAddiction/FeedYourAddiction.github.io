@@ -44,7 +44,7 @@ secondBody {
 
 /* Background of the four different sections */
 .b1 {
-  background: url("office-wallpaper2.png") no-repeat center center fixed;
+  background: url("office-wallpaper2.png") no-repeat center center;
 }
 
 .b2 {
