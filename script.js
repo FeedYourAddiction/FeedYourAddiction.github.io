@@ -21,8 +21,7 @@ function myFunction() {
    to the top */
 function checkTop() {
   var x = document.getElementById("myTopnav");
-
-  if(document.body.scrollTop !== 0) {
+  if(window.pageYOffset !== 0) {
     x.style.backgroundColor =  "#3b5998";
   }
   else {
