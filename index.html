@@ -54,7 +54,7 @@
           <div class="midBox">
             <div class="headerTwo">Hieu Am I?</div>
             <div class="idPhoto">
-              <img src="selfie_kindof.png" alt="id photo">
+              <img src="./images/selfie_kindof.png" alt="id photo">
             </div>
             <div class="aboutContent">
               My name is Hieu Lai, but you already know that. I’m an aspiring
@@ -80,16 +80,39 @@
       <!-- Add Bootstrp grid system -->
       <div class="container" id="workContainer">
         <div class="row">
+          <!-- Create two columns, when screen shrinks this column is ordered last -->
+          <div class="col-sm-6 order-sm-12 text-center">
+            <div class="templateImg">
+              <img src="./images/camperLeaderboardApp_screenshot.png" alt="camperLeaderboardApp_screenshot">
+            </div>
+          </div>
+          <!-- When screen shirks, this column is ordered first -->
+          <div class="col-sm-6 order-sm-1">
+            <div class="workHeader">Camper Leaderboard</div><br>
+            <div class="workHeader2">
+              Lists top 100 campers in the past 30 days. Fetches data from API
+              and render using React framework. SASS and webpack utilised to
+              increase efficiencies.
+            </div>
+            <!-- 'See Code' button -->
+            <div class="workBtnContainer">
+              <a href="https://github.com/hieu-lai/camper-leaderboard-app" class="workBtn nostyle" target="_blank">See Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="smBlock hLine"></div>
+        <div class="smBlock"></div>
+        <div class="row">
             <div class="col-sm-6">
               <div class="templateImg">
-                <img src="markdown-previewer_screenshot.png" alt="markdown-previewer_screenshot">
+                <img src="./images/markdown-previewer_screenshot.png" alt="markdown-previewer_screenshot">
               </div>
             </div>
             <div class="col-sm-6">
               <div class="workHeader leftMarginWork">Markdown Previewer</div><br>
               <div class="workHeader2 leftMarginWork">
                   A simple app that shows the output of markdown as a user types
-                  in the text area. React, webpack and SASS was used to construct
+                  in the text area. React, webpack and SASS were used to construct
                   this app.
               </div>
               <div class="workBtnContainer leftMarginWork">
@@ -103,7 +126,7 @@
           <!-- Create two columns, when screen shrinks this column is ordered last -->
           <div class="col-sm-6 order-sm-12 text-center">
             <div class="templateImg">
-              <img src="myPortfolio_screenshot2.png" alt="myPortfolio_screenshot">
+              <img src="./images/myPortfolio_screenshot2.png" alt="myPortfolio_screenshot">
             </div>
           </div>
           <!-- When screen shirks, this column is ordered first -->
@@ -127,7 +150,7 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="templateImg">
-              <img src="simonGame_screenshot.png" alt="simonGame_screenshot">
+              <img src="./images/simonGame_screenshot.png" alt="simonGame_screenshot">
             </div>
           </div>
           <div class="col-sm-6">
@@ -149,7 +172,7 @@
         <div class="row">
           <div class="col-sm-6 order-sm-12 text-center">
             <div class="templateImg">
-              <img src="tictactoe_screenshot.png" alt="tictactoe_screenshot">
+              <img src="./images/tictactoe_screenshot.png" alt="tictactoe_screenshot">
             </div>
           </div>
           <div class="col-sm-6 order-sm-1">
@@ -171,7 +194,7 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="templateImg">
-              <img src="calculate_screenshot.png" alt="calculator_screenshot">
+              <img src="./images/calculate_screenshot.png" alt="calculator_screenshot">
             </div>
           </div>
           <div class="col-sm-6">
