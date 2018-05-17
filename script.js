@@ -34,7 +34,7 @@ var i = 0;
 var j = 0;
 var txt = ['enjoys long walks on the beach.',
            'appreciates the occassional meme.',
-           'loves having fun.',
+           'creating apps.',
            'enjoys learning code!'];
 var speed = 50;
 var timer;
