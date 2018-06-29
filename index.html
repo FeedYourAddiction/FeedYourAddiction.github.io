@@ -81,6 +81,31 @@
       <!-- Add Bootstrp grid system -->
       <div class="container" id="workContainer">
         <div class="row">
+          <!-- Create two columns, when screen shrinks this column is ordered last -->
+          <div class="col-sm-6 order-sm-12 text-center">
+            <div class="templateImg">
+              <img src="./images/cookscheatcards_screenshot.png" alt="camperLeaderboardApp_screenshot">
+            </div>
+          </div>
+          <!-- When screen shirks, this column is ordered first -->
+          <div class="col-sm-6 order-sm-1">
+            <div class="workHeader">Cook's Cheat Cards</div><br>
+            <div class="workHeader2">
+              An app that stores your favourite recipes. You can create, edit or 
+              view recipes by logging into a social media account or email/password.
+              Developed with React, Redux and SASS. Firebase utilied to handle the 
+              database.
+            </div>
+            <!-- 'See Code' button -->
+            <div class="workBtnContainer">
+              <a href="https://cookscheatcards.herokuapp.com/" class="workBtn nostyle" target="_blank">Visit Website</a>
+              <a href="https://github.com/hieu-lai/cookingcheatcards" class="workBtn nostyle" target="_blank">See Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="smBlock hLine"></div>
+        <div class="smBlock"></div>
+        <div class="row">
           <div class="col-sm-6">
             <div class="templateImg">
               <img src="./images/cryptodeals_screenshot.png" alt="cryptodeals_screenshot">
